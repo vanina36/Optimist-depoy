@@ -1,2 +1,3 @@
-# Optimist-depoy
-https://drive.google.com/file/d/1iuHBd4POTRLMlnnQYuusK2xikDIccmH_/view?usp=drivesdk
+optimia-deploy/ ├── backend/ │   ├── app/ │   │   ├── main.py │   │   ├── models.py │   │   ├── services.py │   │   └── utils.py │   ├── Dockerfile │   └── requirements.txt ├── frontend/ │   ├── public/ │   │   └── index.html │   ├── src/ │   │   ├── App.jsx │   │   ├── main.jsx │   │   ├── components/ │   │   │   └── Home.jsx │   │   └── assets/ │   │       └── logo.png │   ├── Dockerfile │   └── tailwind.config.js ├── rasa_bot/ │   ├── actions/ │   │   └── actions.py │   ├── data/ │   │   ├── nlu.yml │   │   ├── rules.yml │   │   └── stories.yml │   ├── config.yml │   ├── credentials.yml │   ├── domain.yml │   └── endpoints.yml ├── llm_bridge/ │   ├── main.py │   ├── Dockerfile │   └── requirements.txt ├── db/ │   ├── init.sql │   └── Dockerfile ├── docker-compose.yml ├── .env ├── README.md └── nginx/ ├── default.conf └── Dockerfile
+
+
